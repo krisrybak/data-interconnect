@@ -1,0 +1,22 @@
+{
+    "name": "krisrybak/data-interconnect",
+    "description": "Data Interconnect code chalange",
+    "type": "project",
+    "authors": [
+        {           
+            "name": "Kris Rybak",
+            "email": "kris@krisrybak.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}
