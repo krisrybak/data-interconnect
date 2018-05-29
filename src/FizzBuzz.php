@@ -20,6 +20,7 @@ class FizzBuzz
      * @param   int     $start  Number to start loop from
      * @param   int     $finish Number to finish loop at
      * @return  void
+     * @throws  InvalidRangeOrderException
      */
     public static function loop(int $start, int $finish): void
     {
