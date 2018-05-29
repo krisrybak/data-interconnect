@@ -80,11 +80,13 @@ class FizzBuzz
      */
     public static function isDivisibleBy(int $subject, int $denominator): bool
     {
+        // Let's make sure we are not trying to divide by 0
         if ($denominator == 0) {
             throw new IllegalMatchOperationException("Dividing by 0 huh? "
             . "https://en.wikipedia.org/wiki/Division_by_zero");
         }
 
+        // If subject is divisible by denominator then reminder should be 0
         if ($subject % $denominator == 0) {
             return true;
         }
