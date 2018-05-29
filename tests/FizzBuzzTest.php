@@ -4,6 +4,11 @@ declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 use Exception\{OutOfRangeException, InvalidRangeOrderException, IllegalMatchOperationException};
 
+/**
+ * FizzBuzzTest
+ *
+ * @author Kris Rybak <kris@krisrybak.com>
+ */
 final class FizzBuzzTest extends TestCase
 {
     /**

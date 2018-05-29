@@ -1,0 +1,15 @@
+language: php
+
+install:
+   - composer self-update
+   - composer update --prefer-dist --no-interaction
+
+php:
+  - 7.1
+  - 7.2
+
+before_script:
+  - composer install
+
+script:
+  - vendor/bin/phpunit --configuration travis.phpunit.xml
