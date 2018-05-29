@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/krisrybak/data-interconnect.svg?branch=master)](https://travis-ci.org/krisrybak/data-interconnect)
 
-##Setup for Developers
+## Setup for Developers
 
  - Make sure you have up to date composer
 
