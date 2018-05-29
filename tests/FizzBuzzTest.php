@@ -75,10 +75,10 @@ final class FizzBuzzTest extends TestCase
     /**
      * @dataProvider loopDataProvider
      */
-    public function testLoopPass($start, $finish, $xpected)
+    public function testLoopPass($start, $finish, $expected)
     {
         FizzBuzz::loop($start, $finish);
-        $this->expectOutputString($xpected);
+        $this->expectOutputString($expected);
     }
 
     /**
